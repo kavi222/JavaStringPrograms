@@ -28,9 +28,12 @@ public class FindMaxOccuringChar {
 		for (Map.Entry<Character, Integer> data : llmap) {
 			if (data.getKey() > maxChar) {
 				maxChar = data.getKey();
+
 				maxVal = data.getValue();
+
 			}
 		}
+
 		System.out.println(maxChar);
 
 	}
